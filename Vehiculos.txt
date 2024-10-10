@@ -1,0 +1,12 @@
+Marca: toyota
+Modelo: 2024
+Precio: 2800000
+Color: rojo
+Cantidad Puertas: 8
+---------------------------------------
+Marca: yamaha
+Modelo: 2024
+Precio: 800000.0
+Color: azul
+Tipo Motor: 150
+---------------------------------------
