@@ -20,7 +20,7 @@ public class ExportarArchivo {
                         escriba.write("Cantidad Puertas: " + c.getNumeroPuertas() + "\n");
                     } else {
                         Moto m = (Moto) o;
-                        escriba.write("Tipo Motor: " + m.getTipoMotor() + "n");
+                        escriba.write("Tipo Motor: " + m.getTipoMotor() + "\n");
                     }
                     escriba.write("---------------------------------------\n");
                 }

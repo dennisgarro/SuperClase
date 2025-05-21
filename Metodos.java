@@ -1,5 +1,4 @@
 import java.util.LinkedList;
-
 import javax.swing.JOptionPane;
 
 public class Metodos {
@@ -8,7 +7,7 @@ public class Metodos {
         int opt = 0;
         while (bandera) {
             opt = (Integer.parseInt(JOptionPane.showInputDialog("Desea agregar  1: carro 2: moto")));
-            while (opt < 1 && opt > 3) {
+            while (opt < 1 && opt > 2) {
                 JOptionPane.showMessageDialog(null, "Ha ingresado una opcion no valida.", "Dato Incorrecto",
                         JOptionPane.ERROR_MESSAGE);
                 opt = (Integer.parseInt(JOptionPane.showInputDialog("Desea agregar  1: carro 2: moto")));
@@ -50,6 +49,7 @@ public class Metodos {
                 mensaje = mensaje + "tipo motor: " + m.getTipoMotor() + "\n";
 
             }
+            System.out.println(mensaje);
             mensaje = mensaje + "\n";
         }
         JOptionPane.showMessageDialog(null, mensaje, "resultados", 1);
